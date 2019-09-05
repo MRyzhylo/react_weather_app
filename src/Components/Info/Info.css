@@ -1,0 +1,68 @@
+.bg_image  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bg_image h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(219, 245, 236);
+    font-size: 40px;
+}
+
+.bg_image span {
+    color: rgb(219, 53, 75);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bg_image h1:last-of-type {
+    color: whitesmoke;
+}
+
+.bg_image p {
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.bottom {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:first-child {
+    margin-right: 10px;
+}
+
+button {
+    font-size: 2.5em;
+    font-weight: bold;
+    border: none;
+    background: whitesmoke;
+    color: rgb(219, 53, 75);
+    border-radius: 15px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.cliked {
+    background: rgb(219, 53, 75);
+    color: whitesmoke;
+    outline: none;
+}

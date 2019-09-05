@@ -1,0 +1,38 @@
+.floater {
+    background: #FE4A73;
+    position: absolute;
+    width: 140px;
+    border-radius: 0 50px 50px 0;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -5px 5px 7px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #temp {
+    font-size: 3em;
+    margin-left: 10px;
+  }
+  
+  #country-img {
+    width: 85%;
+    border-radius: 0 50px 0 50px;
+    box-shadow: -5px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+  }
+  
+  .country {
+    text-align: center;
+    color: #E9F2F1;
+    margin-top: 10px;
+  }
+  
+  .country p:last-child {
+    font-size: 1.7em;
+  }
